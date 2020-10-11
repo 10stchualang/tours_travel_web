@@ -1,9 +1,6 @@
 import React from 'react'
 
 
-export default () => {
-
-    return <div>
-        dcm
-    </div>
+export default ({ }) => {
+    return (<div>tours</div>)
 }
