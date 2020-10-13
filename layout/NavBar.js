@@ -7,12 +7,18 @@ const styles = {
   header: css`
     background-color: blue;
   `,
+  menu: { backgroundColor: "pink" },
 };
 
 export default ({}) => {
   return (
     <Header className={styles.header}>
-      <Menu theme="dark" mode="horizontal" defaultSelectedKeys={["2"]}>
+      <Menu
+        theme="dark"
+        mode="horizontal"
+        defaultSelectedKeys={["2"]}
+        style={styles.menu}
+      >
         <Menu.Item key="1">nav 1</Menu.Item>
         <Menu.Item key="2">nav 2</Menu.Item>
         <Menu.Item key="3">nav 3</Menu.Item>
