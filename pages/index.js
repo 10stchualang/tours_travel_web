@@ -1,20 +1,10 @@
-
-import React from 'react'
-import { signIn, signOut, useSession } from 'next-auth/client'
-import { Layout } from 'antd';
-
-
-const { Header, Content, Sider, Footer } = Layout;
+import React from "react";
+import NavBar from "layout/NavBar";
 
 export default function Page() {
-
   return (
     <>
-      <Layout>
-        <Header>Header</Header>
-        <Footer>Footer</Footer>
-      </Layout>
-
+      <NavBar />
     </>
-  )
+  );
 }
